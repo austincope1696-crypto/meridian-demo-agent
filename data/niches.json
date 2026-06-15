@@ -1,0 +1,101 @@
+{
+  "roofing": {
+    "keywords": ["roof", "roofer", "roofing", "shingle", "storm restoration", "storm damage"],
+    "missed_call_value": 2800,
+    "avg_job": [8000, 25000],
+    "miss_rate": 0.27,
+    "pain": "crews on roofs can't answer; storm calls hit at 2am",
+    "hook": "In roofing a single missed call is worth about $2,800 — and roof jobs run eight to twenty-five grand. Miss one storm call and that's a competitor's week made."
+  },
+  "hvac": {
+    "keywords": ["hvac", "heating", "cooling", "ac", "air condition", "air conditioning", "furnace", "heat pump"],
+    "missed_call_value": 1500,
+    "avg_job": [3000, 10000],
+    "miss_rate": 0.27,
+    "pain": "emergency calls spike when every tech is already dispatched",
+    "hook": "An HVAC missed call averages about $1,500, and replacements run three to ten grand. When the AC dies in July, whoever answers first wins."
+  },
+  "plumbing": {
+    "keywords": ["plumb", "plumber", "plumbing", "pipe", "drain", "water heater", "leak", "sewer"],
+    "missed_call_value": 1200,
+    "avg_job": [500, 3000],
+    "miss_rate": 0.27,
+    "pain": "burst-pipe callers don't shop around, they call the next name",
+    "hook": "A missed plumbing call runs about $1,200. Someone with a flooded basement isn't waiting for a callback — they're dialing the next plumber."
+  },
+  "electrical": {
+    "keywords": ["electric", "electrician", "wiring", "panel", "electrical"],
+    "missed_call_value": 950,
+    "avg_job": [300, 2000],
+    "miss_rate": 0.27,
+    "pain": "techs can't stop mid-job to answer",
+    "hook": "Each missed call costs an electrician around $950 — and that's before the repeat work and referrals you never hear about."
+  },
+  "legal": {
+    "keywords": ["law", "lawyer", "attorney", "legal", "firm", "injury", "litigation", "counsel"],
+    "missed_call_value": 4000,
+    "avg_job": [3000, 50000],
+    "miss_rate": 0.40,
+    "pain": "first firm to respond usually wins the case; 42% take 3+ days",
+    "hook": "In law a missed intake is three to five grand minimum — personal injury cases run far higher. The firm that answers first usually gets the case."
+  },
+  "realestate": {
+    "keywords": ["real estate", "realtor", "agent", "broker", "property", "homes", "listings"],
+    "missed_call_value": 9000,
+    "avg_job": [8000, 15000],
+    "miss_rate": 0.40,
+    "pain": "speed-to-lead is everything; 78% go with whoever answers first",
+    "hook": "A missed buyer call on a $300k home is around $9,000 in commission. 78% of callers just go with the first agent who actually picks up."
+  },
+  "auto": {
+    "keywords": ["auto", "mechanic", "repair shop", "car", "tire", "collision", "automotive", "body shop"],
+    "missed_call_value": 350,
+    "avg_job": [250, 600],
+    "ltv": 7500,
+    "miss_rate": 0.30,
+    "pain": "front desk busy with in-bay customers",
+    "hook": "That missed call looks like a $250 job — but a repair customer is worth five to ten grand over time. You're not losing a job, you're losing the relationship."
+  },
+  "salon": {
+    "keywords": ["salon", "hair", "nail", "spa", "barber", "med spa", "aesthetic", "lash", "beauty", "stylist"],
+    "missed_call_value": 200,
+    "avg_job": [55, 150],
+    "ltv": 4290,
+    "miss_rate": 0.38,
+    "pain": "stylists serving clients can't reach the phone; 35-40% missed at peak",
+    "hook": "A new salon client looks like a $75 booking, but they're worth around $4,300 over the years they stay with you. Miss that first call and that whole relationship walks."
+  },
+  "restaurant": {
+    "keywords": ["restaurant", "cafe", "diner", "catering", "food", "eatery", "bistro"],
+    "missed_call_value": 150,
+    "avg_job": [35, 300],
+    "miss_rate": 0.35,
+    "pain": "30-40% of reservation calls missed during peak hours",
+    "hook": "Restaurants miss a third of calls at peak — every one is a $35 to $300 reservation or catering order going to the place that picked up."
+  },
+  "vet": {
+    "keywords": ["vet", "veterin", "animal", "pet clinic", "veterinary", "animal hospital"],
+    "missed_call_value": 500,
+    "avg_job": [300, 800],
+    "miss_rate": 0.35,
+    "pain": "emotional callers in urgent situations; after-hours gaps",
+    "hook": "A new vet client is worth three to eight hundred up front — and pet owners are emotional, urgent callers. If you don't answer, they panic-dial the next clinic."
+  },
+  "dental_medical": {
+    "keywords": ["dental", "dentist", "ortho", "medical", "doctor", "clinic", "health", "chiro", "therapy", "chiropractor", "physician"],
+    "missed_call_value": 850,
+    "avg_job": [850, 7500],
+    "miss_rate": 0.35,
+    "compliance": "HIPAA",
+    "pain": "45% of calls come outside 9-5; high lifetime patient value",
+    "hook": "A new patient is worth anywhere from $850 to $7,500+ in lifetime value, and nearly half your calls come outside 9 to 5 — but because you handle health info, we set this up the compliant way with a signed agreement, never a shortcut."
+  },
+  "generic": {
+    "keywords": [],
+    "missed_call_value": 1000,
+    "avg_job": [200, 1000],
+    "miss_rate": 0.40,
+    "pain": "62% of small-business calls go unanswered; 85% never call back",
+    "hook": "Across small businesses, 62% of calls go unanswered and 85% of those people never call back — they just dial your competitor. That's the leak we plug."
+  }
+}
